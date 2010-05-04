@@ -1,0 +1,20 @@
+<ifModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/css
+</ifModule>
+
+<ifModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 seconds"
+  ExpiresByType image/gif "access plus 2592000 seconds"
+  ExpiresByType image/jpeg "access plus 2592000 seconds"
+  ExpiresByType image/png "access plus 2592000 seconds"
+  ExpiresByType text/css "access plus 604800 seconds"
+</ifModule>
+
+<ifModule mod_headers.c>
+  Header set Cache-Control "max-age=604800, public"
+  Header unset ETag
+  Header unset Last-Modified
+</ifModule>
+
+FileETag None
