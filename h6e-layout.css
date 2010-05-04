@@ -44,6 +44,7 @@
 	color:black;
 	font-size:2.5em;;
 	letter-spacing:-0.05em;
+	margin:1em 0;
 }
 
 .h6e-page-title a { color:black; text-decoration:none; }
@@ -178,4 +179,5 @@
 	margin-top:2em;
 	padding-top:0.5em;
 	padding-bottom:2em;
+	clear:both;
 }
