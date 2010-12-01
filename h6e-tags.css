@@ -1,0 +1,65 @@
+/* --------------------------------------------------------------
+
+   h6e Minimal Tags
+
+-------------------------------------------------------------- */
+
+/* Tag Clouds
+-------------------------------------------------------------- */
+
+.h6e-tag-list {
+	text-align:center;
+	margin-bottom:0;
+	font-size:1em;
+	line-height:1.8em;
+}
+
+.h6e-tag-list a.tag {
+	padding:0 1px;
+	text-decoration:none;
+}
+
+.h6e-tag-list a.tag:hover {
+	text-decoration:underline;
+}
+
+.h6e-tag-list big, .h6e-tag-list small, .h6e-tag-list span {
+	white-space:nowrap;
+}
+
+.h6e-tag-list small small { opacity:0.9; font-size:0.9em; }
+.h6e-tag-list small { font-size:1.1em; }
+.h6e-tag-list span { font-size:1.2em; }
+.h6e-tag-list big { font-size: 1.3em }
+.h6e-tag-list big big { font-weight:bold; font-size: 1.3em; }
+
+/* In Posts
+-------------------------------------------------------------- */
+
+.h6e-tags {
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.h6e-tag {
+	display:block;
+	float:left;
+	font-size:12px;
+	height:16px;
+	line-height:16px;
+	margin-top:5px;
+	padding-left:20px;
+	padding-right:10px;
+	text-decoration:none;
+	background:url(img/tag.gif) no-repeat scroll left center transparent;
+}
+
+/* BM Tag style */
+
+.h6e-tag {
+	background:url(img/bm-tag.gif) no-repeat scroll left center transparent;
+	border-right:1px solid #C2C1C1;
+}
